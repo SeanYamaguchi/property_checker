@@ -112,7 +112,7 @@ class OrderedPair(NormalSet):
 
 class SetOfOrderedPairOrPairs(NormalSet):
 	"""
-	
+
 	順序対の集合を表現するクラス。
 	"""
 	def __init__(self, *args):
@@ -191,7 +191,7 @@ def main():
 	R =  SetOfOrderedPairOrPairs(OrderedPair(1,1), OrderedPair(1,2), OrderedPair(2,2), OrderedPair(3,3))
 	is_poset(A, R)
 
-if __name__ == "__main__": # 直接実行の場合
+if __name__ == "__main__":
 	from main import main
 	main()
 
